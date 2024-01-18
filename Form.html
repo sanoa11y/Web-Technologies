@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <body>
+            <form>
+                <fieldset>
+                    <legend> Conduct Details</legend>
+                    <label>Name</label>
+                    <input type="text" id="name"name="name" placeholder="enter your name"><br><br>
+                    <label>Email</label>
+                    <input type="email" id="email"name="email" placeholder="enter your email"><br><br>
+                    <label>Phone</label>
+                    <input type="number" id="phone"name="phone" placeholder="enter your phone"><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>DOB</legend>
+                    <input type="date" id="dob" name="dob"><br><br>
+                    <legend>Gender</legend>
+                    <input type="radio" id="gender"name="gender">
+                    <label>Male</label>
+                    <input type="radio" id="gender"name="gender">
+                    <label>Female</label>
+                    <input type="radio" id="gender"name="gender">
+                    <label>Others</label>
+                </fieldset>
+            <fieldset>
+               <legend>Education Details</legend>
+               <label>Degree</label>
+               <input list="degrees" id="degree" name="degree">
+               <datalist id="degrees">
+              <option value="B.E">
+              <option value="BSC">
+              <option value="B.com">
+            </datalist><br><br>
+            <label>Skills</label>
+            <input type="checkbox">
+            <label>HTML</label>
+            <input type="checkbox">
+            <label>CSS</label>
+            <input type="checkbox">
+            <label>Java script</label>
+        </fieldset><br><br>
+        <button>Sumbit</button>
+            </form>
+        </body>
+    </head>
+</html>
